@@ -1,0 +1,8 @@
+HackRF One
+
+
+Der HackRF One ist ein experimentelles breitbandiges Software-defined-radio (SDR). Mit ihm können Radiowellen von 1 MHz bis 6 GHz gesendet und empfangen werden. Bei dem HackRF One handelt es sich um ein Kick-Starter-Projekt welches auf Open-Source Basis von Michael Ossmann entickelt worden ist. Nun ist der HackRF One ein kommerzielles Produkt. 
+
+Die maximale Sendeleistung liegt bei bis zu 15dBm, je nach Frequenzband. Der HackRF One besitzt eine Antenne (SMA antenna port), somit unterstützt er den Halb-duplex-Betrieb. Des Weiteren besitzt er einen Clock Input und einen Clock Output SMA Port, sowie einen USB 2.0 Port. Er unterstützt bist zu 20 Millionen Samples / sec. Die Auflösung liegt bei 8-bit Quadrature Samples (8bit I und 8bit Q). Den IQ Daten ist ein CPLD nachgeschaltet. Über eine ARM-CPU können die Daten über USB an einen Computer übertragen werden. HackRF One unterstützt unter anderem GNU Radio und SDR#.  Der HackRF One wird über die USB Verbindung mit Strom versorgt.
+
+Mit GNU Radio wurden über Blockschaltbilder Radiosender oder Empfänger aufgebaut werden können. Zu Demozwecken wurde ein AM-Sender, sowie FM-Sender und FM-Empfänger aufgebaut, zusätzlich wurden virtuelle IQ-Sender und Empfänger über GNU Radio aufgebaut (Bilder).
